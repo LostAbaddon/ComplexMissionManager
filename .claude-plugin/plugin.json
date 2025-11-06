@@ -1,19 +1,21 @@
 {
-	"name": "complexMissionManager",
-	"version": "1.0.0",
-	"description": "智能多级任务拆分和并行执行系统 - 自动将复杂任务拆分为可并行执行的任务组，并通过多级 Agent 协作完成",
-	"author": {
-		"name": "LostAbaddon",
-		"email": "lostabaddon@gmail.com",
-		"url": "https://lostabaddon.github.io/"
-	},
-	"license": "MIT",
-	"keywords": [
-		"task-management",
-		"parallel-execution",
-		"agent-collaboration",
-		"workflow-automation",
-		"task-splitting"
-	],
-	"commands": ["./commands/split.md"]
+  "name": "complexMissionManager",
+  "version": "1.0.1",
+  "description": "智能多级任务拆分和并行执行系统 - 自动将复杂任务拆分为可并行执行的任务组，并通过多级 Agent 协作完成",
+  "author": {
+    "name": "LostAbaddon",
+    "email": "lostabaddon@gmail.com",
+    "url": "https://lostabaddon.github.io/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "task-management",
+    "parallel-execution",
+    "agent-collaboration",
+    "workflow-automation",
+    "task-splitting"
+  ],
+  "commands": [
+    "./commands/assign.md"
+  ]
 }
